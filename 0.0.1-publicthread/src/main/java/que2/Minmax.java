@@ -19,7 +19,7 @@ public class Minmax {
 		
 	}
 	
-	public int min(ArrayList<Integer> list) {
+	public int  min(ArrayList<Integer> list) {
 		int min = list.stream().min(Comparator.comparing(i -> i)).get();
 		return min;
 	}
